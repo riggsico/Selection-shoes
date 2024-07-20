@@ -1,0 +1,71 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #D9D9D9;
+}
+
+.navbar {
+    border-radius: 15px;
+    width: 77%;
+    margin: auto;
+}
+
+.container-fluid {
+    max-width: 1490px;
+    /* Reset the max-width */
+}
+
+.margin-navbar {
+    margin-right: 20px;
+}
+
+.margin-top {
+    margin-top: 80px;
+}
+
+.image-container {
+    border-radius: 15px;
+    background-color: #fff;
+    height: 950px;
+    width: 80%;
+    margin: auto;
+}
+
+.img-container {
+    width: 1470px;
+    height: 1100px;
+    border-radius: 15px;
+}
+
+.Signup {
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .image-container {
+        height: 300px;
+    }
+
+    .container-fluid {
+        max-width: 410px;
+    }
+
+    .col {
+        width: 50%;
+    }
+
+    .img-container {
+        height: 300px;
+    }
+
+    .navbar {
+        width: 90%;
+    }
+
+    .Signup {
+        padding-right: 0px;
+        padding-bottom: 10px;
+    }
+}
